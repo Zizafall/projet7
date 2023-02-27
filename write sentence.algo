@@ -1,0 +1,38 @@
+A  ce point de contrôle, on vous  demande  d'écrire un algorithme qui lit une phrase, 
+qui se termine par un point, caractère par caractère, et de déterminer :
+Instructions:
+
+La longueur de la phrase (le nombre de caractères).
+Le nombre de mots dans la phrase (en supposant que les mots sont séparés par un seul espace).
+Le nombre de voyelles dans la phrase.
+Vous devez garder à l'esprit que : 
+
+Chaque personnage sera traité séparément.
+Le dernier caractère est le point.
+Utilisez trois variables comme compteurs.
+
+ALGORITHM write_sentence
+//declaration de variable //
+
+VAR
+  a,b,c: INTEGER 
+  a:= 0
+  b:= 1
+  c:= 0
+  //*etlabir le nombre de phrase//
+  n: STRING
+  BEGIN
+  REPEAT
+  //pour commencer les conditions //
+  écrire(ecrire la phrase)
+  lire(n)
+  IF (n{a}:="espace") THEN
+    b:=b+1
+    (IF (n[a]:="a;e;u;i;o;y") THEN
+      c:=c+1
+    END_IF)
+  
+  
+    
+  UNTIL
+  n (a:=point)
